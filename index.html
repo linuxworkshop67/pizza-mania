@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Pizza Mania</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/modified.css">
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark over">
+      <div class="text-center mb-4"> <!-- Centering the image -->
+          <img src="assets/pizza_imgs/dance.gif" alt="Logo" width="80" height="80" class="img-fluid">
+        </div>
+    <div class="container px-5">
+      <a class="navbar-brand" href="#!">Pizza Mania</a>
+    </div>
+  </nav>
+    <!-- Page Content-->
+    <div class="container px-4 px-lg-5">
+      <!-- Heading Row-->
+      <div class="row gx-4 gx-lg-5 align-items-center my-5">
+        <div class="col-lg-7">
+          <img
+          onmouseover="makeMonochrome(this)" onmouseout="makeColor(this)"
+            class="img-fluid rounded mb-4 mb-lg-0"
+            src="assets/main/pizza.jpeg"
+            alt="..."
+          />
+        </div>
+        <div class="col-lg-5">
+          <h1 class="font-weight-light">Pizza Mania</h1>
+          <p>
+            Indulge in a slice of paradise at Pizza Mania, where every bite is
+            a burst of flavor! Our oven-baked creations are crafted with passion
+            and precision, using only the freshest ingredients to ensure a
+            mouthwatering experience with every order. From classic favorites
+            like Margherita and Pepperoni to signature specialties that push the
+            boundaries of taste, Pizza Mania promises to satisfy every craving.
+            Whether you're dining in, ordering for delivery, or hosting a
+            gathering, let Pizza Mania be the highlight of your mealtime
+            adventures. Join the flavor frenzy today!
+          </p>
+          <a class="btn btn-primary" onclick="redirectToForm();" href="#!" onclick="redirectToForm();" >Order Now</a>
+        </div>
+      </div>
+
+      <!-- Content Row-->
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Classic Pepperoni</h2>
+              <div class="text-center"><img onmouseover="makeMonochrome(this)" onmouseout="makeColor(this)" src="assets/pizza_imgs/pepperoni.webp" height="100" width="100"></div>
+              <p class="card-text">
+                Enjoy the timeless taste of our Classic Pepperoni Pizza,
+                featuring a crispy crust topped with zesty tomato sauce, savory
+                mozzarella cheese, and generous slices of spicy pepperoni. It's
+                a crowd-pleaser that never goes out of style!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-primary btn-sm" href="#!" onclick="redirectToForm();">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Margherita</h2>
+              <div class="text-center"><img onmouseover="makeMonochrome(this)" onmouseout="makeColor(this)" src="assets/pizza_imgs/margherita.webp" height="100" width="100"></div>
+              <p class="card-text">
+                Indulge in the simplicity of our Mouthwatering Margherita Pizza,
+                crafted with the finest ingredients including ripe tomatoes,
+                fresh basil leaves, creamy mozzarella cheese, and a drizzle of
+                extra virgin olive oil. It's a taste of Italy right in your own
+                home!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-primary btn-sm" href="#!" onclick="redirectToForm();">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">BBQ Chicken</h2>
+              <div class="text-center"><img onmouseover="makeMonochrome(this)" onmouseout="makeColor(this)" src="assets/pizza_imgs/bbq.jpeg" height="100" width="100"></div>
+              <p class="card-text">
+                Experience the bold flavors of our Sizzling BBQ Chicken Pizza,
+                featuring tender grilled chicken breast, tangy barbecue sauce,
+                melted cheddar cheese, crisp red onions, and cilantro atop a
+                golden crust. It's a barbecue lover's dream come true!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-primary btn-sm" href="#!" onclick="redirectToForm();">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container px-4 px-lg-5">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Your Website 2023
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
